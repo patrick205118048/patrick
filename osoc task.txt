@@ -1,0 +1,43 @@
+1. How to perform calculation directly from terminal? Which command is used ?? How to set limit
+of numbers to display after particular constant (say pi) 
+    ans->first you have to opnen terminal
+           -> than type command "bc" then enter
+            ->after pressing enter it will open now you simply calculate the number like this
+             eg. 5+5
+                 10
+5. Create a directory and move in the directory.Create another directory inside this directory and
+move in it. write a single command to come out in original directory.  
+     ans->  open terminal and create directive by using "mkvir dir_name" ,
+          ->than press"cd dir_name" it will open the directive you created
+          ->now create new directive inside your directive by using "mkdir user_name"
+          ->now press "PWD" it will show your present working directive
+          -> now enter to you directive by using "CD dir _name"
+         ->now enter to directive you create inside the first directive by using" cd dir_2nd directive"
+        ->now you are in your directive
+        ->to come back you home directly you have to press" cd ~" it will take you back directly to your home.  
+
+8.If you forget password how will you reset it ?
+    ans-> if you forget your password than by following method you can reset your password:
+          STEP1-> restart you pc
+          STEP2->after restarting your pc you have to select "CHOOSE ADVANCE FOR UBUNTU"
+          STEP3-> after selecting "ADVANCE" you have to select RECOVERY"
+          STEP4->  select "PROP TO ROOT SHEET PROMPT"
+          STEP5->  then press "mount -n-o remount,rw/
+          STEP6-> passwd your_username
+          STEP7-> now set your new password.
+          END;
+
+4. Write a command to find a file with particular extension and contains particular word(string) in
+the file?
+       ans-> "find . -name "file name with extension".
+6. Why linux is more secured than other operating systems?Find certain parameters comparing with
+other operating systems??
+       -->  1VIRUS:  In window user can have access to everything in the system beacuse they have admistration right, if virus will attack to their
+system it can easly attack to their system,but in LINUX they have low right they can access the local file virus can attack to only local file of
+system.
+     -->2OPEN SOURCE : LINUX is open source enyone can use linux they dont have to pay money but window we have to pay for os
+     -->3 in window we have to download the antivirus to protech to our system but in linux we no neend to install any type of antivirus 
+beacuse beacuse in linux couple of software tools exist to protech you file and operating system.
+9.-->1 ans command -find
+       2.umask= in linux when we create a new file with permission by default a new file's permission eill restricted in a specific way by appliying mask
+called umask. 
